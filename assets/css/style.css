@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.topo {
+    width: 100%;
+    background-color: #f86c147d;
+}
+
+.topo .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.imgLogo {
+    height: 60px;
+    margin: 5px;
+}
+
+.topoLinks {
+    display: flex;
+}
+
+.topoLink {
+    color: #F86A14;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.topoLink:hover {
+    color: #fff;
+}
+
+footer {
+    background-color: #f86c147d;
+    color: #F86A14;
+    padding: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.linkRodape {
+    text-decoration: none;
+    color: #F86A14;
+    font-weight: 600;
+}
+
+.linkRodape:hover {
+    color: #fff;
+}
+
+/* CSS Index */
+
+.atualizado {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.textos {
+    text-align: center;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.textos h2, .testos h3 {
+    margin:0;
+    padding: 10px;
+}
+
+.textos p {
+    padding: 10px;
+}
+
+.imgPrincipal {
+    position: relative;
+    background-image: url("https://i.imgur.com/M4VXoHW.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    margin-top: 0;
+}
+
+.imgbem {
+    position: relative;
+    float: left;
+    display: flex;
+    width: 100%;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #F86A14;
+}
+
+.principal {
+    padding: 50px;
+    text-align: center;
+    color:#525151;
+}
+
+.princial p {
+    padding: 20px;
+    text-align: center;
+    color: #737373;
+}
+
+.imgRPU {
+    border-radius: 40%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.linha {
+    border-bottom: 2px solid #73737398;
+    margin: 10px;
+}
+
+
+/* CSS Increva-se */
+
+.textosi {
+    text-align: center;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.linha-i {
+    border-bottom: 2px solid #73737398;
+    margin: 10px auto;
+
+}
+
+.textosi h2, .testos h3 {
+    margin:0;
+    padding: 10px;
+}
+
+.formulario {
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color:#525151;
+    padding-left: 230px;
+}
+
+.principal-i {
+    padding: 50px;
+    color:#525151;
+}
+
+.linha .container {
+    display: flex;
+    align-items: center;
+}
