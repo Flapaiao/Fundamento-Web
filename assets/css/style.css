@@ -174,3 +174,22 @@ footer {
     display: flex;
     align-items: center;
 }
+
+.botao {
+    background-color: #F86A14;
+    border: none;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f86c14c9;
+}
+
+input {
+    width: 420px;
+}
